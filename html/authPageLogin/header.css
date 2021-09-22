@@ -6,6 +6,10 @@
     position: relative;
 }
 
+span {
+    display: block;
+}
+
 .headerLeftSide, .headerRightSide {
     display: flex;
     align-items: center;
@@ -26,7 +30,6 @@
     line-height: 17px;
     color: #FFFFFF;
     margin-left: 64;
-    height: 17;
 }
 
 .languageSelection {
