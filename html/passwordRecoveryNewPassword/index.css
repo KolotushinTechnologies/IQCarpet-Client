@@ -36,12 +36,12 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20 0;
 }
 
 .authTypeButtons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 100%;
 }
 
 .registrationButton {
@@ -110,25 +110,10 @@ input {
     outline: none;
 }
 
-.passwordSee {
-    margin-left: -40;
-}
-
-.forgotPasswor {
-    font-size: 14px;
-    line-height: 20px;
-    color: #5282C3;
-}
-
 .lastMenuFields {
     margin-top: 16;
     display: flex;
-    justify-content: space-between;
-}
-
-.isSellerDiv {
-    display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 
@@ -152,17 +137,6 @@ input[type="checkbox"]:checked {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
-.isSellerCheckbox {
-    width: 16;
-    height: 16;
-}
-
-.isSellerText {
-    font-size: 14px;
-    line-height: 12px;
-    margin-left: 8;
-}
-
 .submitButtonDiv {
     margin-top: 32;
     display: flex;
@@ -183,30 +157,37 @@ input[type="checkbox"]:checked {
     width: 241;
 }
 
-.menuContent2Line {
-    width: 151px;
-    height: 0px;
-    border: 1px solid #FFFFFF;
+.authTypeButtons > span {
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
 }
 
-.menuContent2Text {
+.lastMenuFields > span {
     font-size: 14px;
-    line-height: 12px;
-    color: #8E8E8E;
+    line-height: 18px;
+    color: #7A7D80;
 }
 
-.menuContent2TextDiv {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 87%;
+.repeatSendingCode {
+    background-color: transparent;
+    border-width: 0;
+    margin-left: 14;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5282C3;
 }
 
-.menuContent2Links {
-    display: flex;
-    margin-top: 10;
+.repeatSendingCodeNoTime {
+    color: #A4A4A4;
 }
 
-.menuContent2Link {
-    margin: 0 16;
+.repeatSendingCodeTime {
+    margin-left: 12;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5282C3;
 }
