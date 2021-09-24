@@ -108,6 +108,7 @@ span {
 
 .filterBox {
     margin-left: 40;
+    margin-bottom: auto;
     background: #F3F5FB;
     border-radius: 12px;
     display: flex;
