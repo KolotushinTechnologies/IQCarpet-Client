@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 79px);
+}
+
+.backButton {
+    margin: 0;
+    margin-top: 32;
+    margin-left: 40;
+    margin-right: auto;
+    background: #FFFFFF;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5282C3;
+    padding: 8 22;
+    display: flex;
+    align-items: center;
+    height: 38;
+}
+
+.backButton > img {
+    margin-right: 16;
+    width: 8;
+    height: 16;
+}
+
+.termOfUseContent {
+    margin: 32 40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.termOfUseHeader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1D1D1D;
+}
