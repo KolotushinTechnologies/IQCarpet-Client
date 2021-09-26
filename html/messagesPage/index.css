@@ -226,7 +226,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 24 18;
+    padding: 0 18;
 }
 
 .selectedChatImagesToSend {

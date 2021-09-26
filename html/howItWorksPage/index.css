@@ -1,0 +1,202 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton {
+    margin: 0;
+    margin-top: 32;
+    margin-left: 40;
+    margin-right: auto;
+    background: #FFFFFF;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5282C3;
+    padding: 8 22;
+    display: flex;
+    align-items: center;
+    height: 38;
+}
+
+.backButton > img {
+    margin-right: 16;
+    width: 8;
+    height: 16;
+}
+
+.leftSideContent {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centreSideContent {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightSideContent {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.howWorksContentMain {
+    width: 90%;
+    margin: 32 5% 0;
+}
+
+.howWorksContent {
+    width: 100%;
+    display: flex;
+}
+
+.howWorksStep {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D1D1D;
+    margin: 0 20px;
+    max-height: 22px;
+}
+
+.howWorksStepRight {
+    text-align: start;
+}
+
+.howWorksStepLeft {
+    text-align: end;
+}
+
+.howWorksStep1 {
+    margin-top: 46px;
+}
+
+.howWorksStep2 {
+    margin-top: 190px;
+}
+
+.howWorksStep3, .howWorksStep4, .howWorksStep5, .howWorksStep6 {
+    margin-top: 266px;
+}
+
+.howItWorksImage1 {
+    margin-top: 174;
+    width: 178;
+}
+
+.howItWorksImage2 {
+    margin-top: 276;
+    width: 212;
+}
+
+.howItWorksImage3 {
+    margin-top: 100;
+    width: 207;
+}
+
+.howItWorksImage4 {
+    margin-top: 99;
+    width: 200;
+}
+
+.howItWorksImage5 {
+    margin-top: 77;
+    width: 169;
+}
+
+.howItWorksImage6 {
+    margin-top: 126;
+    width: 219;
+}
+
+.howWorksContentText1, .howWorksContentText2 {
+    margin: 0;
+    text-align: center;
+}
+
+.howWorksContentText1 {
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1D1D1D;
+}
+
+.howWorksContentText2 {
+    margin-top: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: #1D1D1D;
+    min-height: 72;
+    max-height: 72;
+}
+
+.howWorksContentlineDiv {
+    display: flex;
+    width: 100%;
+    margin-top: 67px;
+}
+
+.howWorksContentlineTextLeft, .howWorksContentlineTextRight {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.howWorksContentline {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.makeAnOrderDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40;
+    margin-bottom: 73;
+}
+
+.makeAnOrderDiv > button {
+    background: #5282C3;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;    
+    color: #FFFFFF;
+    min-width: 241;
+    padding: 4 16;
+    border-width: 0;
+}
