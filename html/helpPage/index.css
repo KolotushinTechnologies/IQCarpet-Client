@@ -1,0 +1,185 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 79px);
+}
+
+.backButton {
+    margin: 0;
+    margin-top: 32;
+    margin-left: 40;
+    margin-right: auto;
+    background: #FFFFFF;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5282C3;
+    padding: 8 22;
+    display: flex;
+    align-items: center;
+    height: 38;
+}
+
+.backButton > img {
+    margin-right: 16;
+    width: 8;
+    height: 16;
+}
+
+.helpContent {
+    margin: 32 80 105;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.helpHeader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    color: #1D1D1D;
+}
+
+.helpHeader2 {
+    margin-top: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 182%;
+    color: #1D1D1D;
+}
+
+.contactLinksDiv {
+    margin-top: 32;
+    width: 432;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactLink {
+    width: 32;
+    height: 32;
+}
+
+.contactsTextDiv {
+    margin-top: 24;
+    width: 432;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactsPhone {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.contactsLink {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.feedBackFormDiv {
+    margin-top: 32;
+    background: #F3F5FB;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 19 32 32;
+}
+
+.formHeader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 2;
+}
+
+.feedBackFieldHeader {
+    margin-top: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7A7D80;
+}
+
+.feedBackFieldText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.formTextarea {
+    margin-top: 4;
+    width: 370;
+    height: 131;
+    border-width: 0;
+    outline: none;
+    resize: none;
+    border-radius: 12px;
+}
+
+.addAttach {
+    width: 20.47;
+    height: 24;
+    margin: -36 12 0 auto;
+    z-index: 100;
+}
+
+.sendFormDiv {
+    margin-top: 46;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendFormDiv > button {
+    background: #5282C3;
+    border-radius: 16px;
+    padding: 4 16;
+    min-width: 241;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-width: 0;
+}
