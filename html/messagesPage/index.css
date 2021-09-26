@@ -1,0 +1,372 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton {
+    margin: 0;
+    margin-top: 32;
+    margin-left: 40;
+    margin-right: auto;
+    background: #FFFFFF;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5282C3;
+    padding: 8 22;
+    display: flex;
+    align-items: center;
+    height: 38;
+}
+
+.backButton > img {
+    margin-right: 16;
+    width: 8;
+    height: 16;
+}
+
+.contentHeaderText {
+    margin-top: 24;
+    margin-left: 40;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #000000;
+}
+
+.chatsContent {
+    margin: 32 40 101;
+    display: flex;
+    height: 740;
+}
+
+.chats {
+    height: 100%;
+    min-width: 240;
+    background: #F3F5FB;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatsHeader {
+    margin-top: 8;
+    margin-left: 12;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.chatDiv {
+    width: 100%;
+    height: 69;
+    margin-top: 8;
+    display: flex;
+}
+
+.chatImage {
+    width: 36;
+    height: 36;
+    margin: auto 8;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.chatContent {
+    margin: 8 0 11 0;
+    width: 57.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chatName {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    max-width: 100%;
+}
+
+.chatName2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5282C3;
+    max-width: 100%;
+}
+
+.chatMessage {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    max-width: 100%;
+}
+
+.chatTime {
+    margin: auto 8 11 auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7A7D80;
+}
+
+.selected {
+    background: #C0CFE5;
+}
+
+.selectedChat {
+    height: 100%;
+    margin-left: 24;
+    width: 100%;
+    background: #F3F5FB;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectedChatHeader {
+    width: 100%;
+    min-height: 73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C0CFE5;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.selectedChatHeaderImage {
+    width: 52;
+    height: 52;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.selectedChatHeaderDataDiv {
+    margin-left: 16;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectedChatHeaderNameDiv {
+    display: flex;
+}
+
+.selectedChatHeaderName {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.selectedChatHeaderRole {
+    margin-left: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.selectedChatHeaderOnlineStatus {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #FFFFFF;
+}
+
+.selectedChatFooter {
+    width: 100%;
+    min-height: 72;
+    border-radius: 0px 0px 12px 12px;
+    background: #C0CFE5;
+    display: flex;
+    align-items: center;
+}
+
+.selectedChatContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24 18;
+}
+
+.selectedChatImagesToSend {
+    margin: 0 18 12;
+    display: flex;
+}
+
+.dateMessage {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 3 0;
+}
+
+.myMessageBox {
+    margin: 6 0 6 auto;
+    max-width: 65%;
+}
+
+.myMessageBox > .message {
+    background: #FFFFFF;
+}
+
+.userMessageBox {
+    margin: 6 auto 6 0;
+    max-width: 65%;
+}
+
+.userMessageBox > .message {
+    background: #DAE5F6;
+}
+
+.message {
+    margin: 6 0;
+    display: flex;
+    padding: 12 11 12 16;
+    border-radius: 16px;
+}
+
+.messageText {
+    margin-bottom: 2;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.messageDate {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    color: #8E8E8E;
+    margin: auto 0 0 8;
+}
+
+.attachmentImage {
+    display: flex;
+    margin: 0;
+    margin-left: 8;
+    max-width: 72;
+    max-height: 72;
+    min-width: 72;
+    min-height: 72;
+}
+
+.attachmentImage:nth-child(1) {
+    margin-left: 0;
+}
+
+.imageToSend {
+    border-radius: 12px;
+    width: 72;
+    height: 72;
+    object-fit: contain;
+}
+
+.deleteAttachButton {
+    width: 16;
+    height: 16;
+    margin-top: 6;
+    margin-left: -22;
+    padding: 4;
+    border-radius: 50%;
+    background: #5282C3;
+    border-width: 0;
+}
+
+.deleteAttachButton > img {
+    width: 8;
+    height: 8;
+}
+
+.addAttachButton {
+    margin-left: 18;
+    min-width: 21;
+    max-width: 21;
+    min-height: 24;
+    max-height: 24;
+}
+
+.messageInput {
+    margin-left: 24;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    border-width: 0;
+    padding: 7 16;
+    outline: none;
+}
+
+.sendButton {
+    margin-left: 19;
+    margin-right: 17;
+    min-width: 32;
+    min-height: 32;
+    max-width: 32;
+    max-height: 32;
+    border-radius: 50%;
+    background: #5282C3;
+    padding: 8;
+    border-width: 0;
+}
+
+.sendButton > img {
+    width: 16;
+    height: 16;
+}
