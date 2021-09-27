@@ -1,0 +1,136 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #111D31;
+    width: 100%;
+}
+
+.footerHeaderDiv {
+    margin: 0 16;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerHeaderImage {
+    margin-top: 24;
+    width: 86.22;
+    height: 20;
+}
+
+.footerHeaderText {
+    margin-top: 14;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 39px;
+    color: #F8F9FA;
+}
+
+.footerCommunityLinks {
+    margin-top: 4;
+    margin-right: -3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerCommunityLink {
+    margin-right: 19;
+}
+
+.signUpForMessagesEmail {
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: #F8F9FA;
+    background-color: rgba(0,0,0,0);
+    padding-left: 16;
+    padding-right: 116;
+    height: 39;
+    margin-top: 1;
+    min-width: 313;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.signUpForMessagesEmail::placeholder {
+    color: #F8F9FA;
+}
+
+.sendEmailButton {
+    width: 137;
+    height: 41;
+    padding: 3 44;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    color: #FFFFFF;
+    background: #5282C3;
+    border-radius: 6px;
+    margin-left: -100;
+    border-width: 0;
+    box-sizing: border-box;
+}
+
+.sendEmailDiv {
+    margin: 16 0 0 16;
+    display: flex;
+}
+
+.footerSignUpForMessagesText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F8F9FA;
+    margin: 32 0 0 16;
+}
+
+.footerNavigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 54 24 0;
+}
+
+.footerNavigationText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerCopyrights {
+    display: flex;
+    justify-content: flex-end;
+    margin: 8 16 19;
+}
+
+.footerCopyrightsCompanyEmail {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(248, 249, 250, 0.28);
+    margin-right: 16;
+}
+
+.footerCopyrightsText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F8F9FA;
+}

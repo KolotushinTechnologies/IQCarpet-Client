@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contentHeaderText {
+    margin-top: 24;
+    margin-left: 16;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-right: 20%;
+}
+
+.contentHeaderSubText {
+    margin-top: 4;
+    margin-left: 16;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-right: 20%;
+}
+
+.homePageImage1 {
+    width: 82vw;
+    max-width: 512;
+    height: calc(82vw * 0.78778135048);
+    max-height: 403.344051446;
+    margin: -20 0 0 auto;
+    z-index: -100;
+}
+
+.authButtonsDiv {
+    margin: 44 8 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logInButton {
+    background: #5282C3;
+    border-radius: 31px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border-width: 0;
+    padding: 7.5 16;
+    min-width: 100;
+    width: 40%;
+    max-width: 200;
+}
+
+.segnUpButton {
+    background: #FFFFFF;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 31px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #335991;
+    padding: 7.5 16;
+    min-width: 100;
+    width: 40%;
+    max-width: 200;
+}
