@@ -252,8 +252,8 @@ span {
 }
 
 .advantages2Box {
-    margin-top: 28;
-    margin-left: 8;
+    margin: 28 auto 0 8;
+    padding-right: 20;
     background: #FFFFFF;
     border: 1px solid #D7E6FA;
     box-sizing: border-box;
