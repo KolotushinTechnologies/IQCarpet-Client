@@ -88,3 +88,200 @@ span {
     width: 40%;
     max-width: 200;
 }
+
+.howItWorksText {
+    margin: 120 16 32;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1D1D1D;
+}
+
+.howItWorksInfoText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 182%;
+    color: #1D1D1D;
+    margin: 12 16 0;
+}
+
+.howItWorksStepDiv {
+    margin: 32 16 0;
+    display: flex;
+    align-items: center;
+}
+
+.howItWorksStepDiv > img {
+    width: 24;
+    height: 24;
+}
+
+.howItWorksStepDiv > span {
+    margin-left: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1D1D1D;
+}
+
+.whyUsDiv {
+    margin-top: 120;
+    width: 100%;
+    background: linear-gradient(90deg, #5384C6 1.15%, #244578 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whyUsText {
+    margin-top: 23;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.whyUsArgsDiv {
+    margin-top: 17;
+    margin-bottom: 35;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.whyUsArgsListDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whyUsArgHeader {
+    margin-top: 22;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.whyUsArgText {
+    margin-top: 4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 133.9%;
+    color: #FFFFFF;
+}
+
+.advantagesHeader {
+    margin: 120 auto 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.advantagesBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32 auto 0;
+    width: 229;
+    height: 288;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #DAE5F6);
+}
+
+.advantagesBlock > img {
+    width: 113;
+    height: 108;
+    margin-top: 35;
+}
+
+.advantagesBlock > span {
+    margin: 44 16 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 133.9%;
+    color: #000000;
+}
+
+.clientsHeader {
+    margin: 224 auto 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.clientsImage {
+    margin: 62 auto 0;
+    width: 90vw;
+    max-width: 768;
+    height: calc(90vw * 1.82421875);
+    max-height: 1401;
+}
+
+.advantages2Header {
+    margin: 180 auto 12;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.advantages2Box {
+    margin-top: 28;
+    margin-left: 8;
+    background: #FFFFFF;
+    border: 1px solid #D7E6FA;
+    box-sizing: border-box;
+    border-radius: 31px;
+    height: 38;
+    display: flex;
+    align-items: center;
+}
+
+.advantages2Box > img {
+    width: 28;
+    height: 28;
+    margin: 0 8;
+}
+
+.advantages2Box > span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.homePageImage3 {
+    width: 100vw;
+    max-width: 768;
+    height: 100vw;
+    max-height: 768;
+    margin: 79 auto 0;
+}
