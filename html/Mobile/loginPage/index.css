@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: auto;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -11,119 +11,69 @@ span {
     display: block;
 }
 
-.illustration {
-    margin-top: 143;
-    margin-left: 71;
-    width: 699;
-    height: 678;
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.menu {
-    position: absolute;
-    left: auto;
-    right: 40;
-    top: 119px;
+.authButtonsDiv {
+    margin-top: 24;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.menuContent {
-    padding: 30 40;
+.authButton {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #7A7D80;
+}
+
+.seletedAuthButton {
+    color: #000000;
+}
+
+.fieldsDiv {
+    margin: 16 16 0;
     background: #F3F5FB;
     border-radius: 16px;
 }
 
-.menuContent2 {
-    margin-top: 40;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20 0;
-}
-
-.authTypeButtons {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.registrationButton {
-    font-size: 18px;
-    line-height: 24px;
-    color: #7A7D80;
-}
-
-.loginButton {
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-}
-
-.authTypeButtonsMarker {
-    height: 0px;
-    border: 1px solid #5282C3;
-    position: absolute;
-    width: 120;
-    left: 240;
-    top: 62;
-}
-
-.menuFields {
-    display: flex;
-    flex-direction: column;
-    margin-top: 8;
-}
-
-.field {
-    display: flex;
-    flex-direction: column;
-    margin-top: 24;
-}
-
-.fieldName {
+.fieldHeaderText {
+    margin: 24 21 0;
+    font-family: Montserrat;
+    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 12px;
+    color: #000000;
+}
+
+.fieldHeaderShortMargin {
+    margin-top: 16;
 }
 
 .fieldInput {
-    margin-top: 8;
+    margin: 8 21 0;
+    width: calc(100% - 42px);
     background: #FFFFFF;
     border-radius: 16px;
-    border-width: 0;
-    box-sizing: border-box;
-    border-radius: 16px;
-    padding: 4 16;
-    font-size: 14px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    line-height: 24px;
-    width: 353px;
-    height: 32px;
-}
-
-.fieldInputDiv {
-    margin-top: 8;
-    display: flex;
-    align-items: center;
-}
-
-input {
+    font-size: 12px;
+    line-height: 12px;
+    border-width: 0;
     outline: none;
-}
-
-.passwordSee {
-    margin-left: -40;
-}
-
-.forgotPasswor {
-    font-size: 14px;
-    line-height: 20px;
-    color: #5282C3;
-}
-
-.lastMenuFields {
-    margin-top: 16;
-    display: flex;
-    justify-content: space-between;
+    padding: 8.5 16;
 }
 
 .isSellerDiv {
@@ -131,8 +81,9 @@ input {
     align-items: center;
 }
 
-
 input[type="checkbox"] {
+    width: 16;
+    height: 16;
     margin: 0;
     outline: none;
     border: 2px solid #5282C3;
@@ -152,25 +103,35 @@ input[type="checkbox"]:checked {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
-.isSellerCheckbox {
-    width: 16;
-    height: 16;
-}
-
-.isSellerText {
+.isSellerDiv > span {
+    margin-left: 8;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 12px;
-    margin-left: 8;
+    color: #000000;
 }
 
-.submitButtonDiv {
-    margin-top: 32;
+.isSellerAndForgotPasswordDiv {
+    margin: 16 21 0;
     display: flex;
-    width: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgotPasswordText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5282C3;
 }
 
 .submitButton {
+    margin: 32 auto 24;
+    display: block;
     background: #5282C3;
     border-radius: 16px;
     font-family: Montserrat;
@@ -179,12 +140,22 @@ input[type="checkbox"]:checked {
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+    padding: 4 16;
+    min-width: 241;
     border-width: 0;
-    width: 241;
 }
 
+.menuContent {
+    background: #F3F5FB;
+    border-radius: 16px;
+    margin: 32 16 48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25 0;
+}
 .menuContent2Line {
-    width: 151px;
+    width: 118px;
     height: 0px;
     border: 1px solid #FFFFFF;
 }
