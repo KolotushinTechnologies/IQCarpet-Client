@@ -183,7 +183,6 @@
         </div>
         <script>
             filterBoxOpenButton.addEventListener("click", function(){
-                console.log(filterBox.getAttribute("hidden"));
                 if(filterBox.getAttribute("hidden") == "false") {
                     filterBox.setAttribute("hidden", "true");
                     shadow.classList.add("hidden");
@@ -191,7 +190,11 @@
                     filterBox.setAttribute("hidden", "false");
                     shadow.classList.remove("hidden");
                 }
-            })
+            });
+            shadow.addEventListener("click", function(){
+                filterBox.setAttribute("hidden", "true");
+                shadow.classList.add("hidden");
+            });
         </script>
         <div class="footer">
             <div class="footerHeaderDiv">
