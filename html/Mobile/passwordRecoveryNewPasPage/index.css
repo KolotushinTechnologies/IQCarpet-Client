@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fieldsDiv {
+    margin: 32 16 139;
+    background: #F3F5FB;
+    border-radius: 16px;
+}
+
+.fieldHeaderText {
+    margin: 24 21 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.fieldHeaderShortMargin {
+    margin-top: 16;
+}
+
+.fieldInput {
+    margin: 8 21 0;
+    width: calc(100% - 42px);
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    border-width: 0;
+    outline: none;
+    padding: 8.5 16;
+}
+
+.submitButton {
+    margin: 32 auto 24;
+    display: block;
+    background: #5282C3;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 4 16;
+    min-width: 241;
+    border-width: 0;
+}
+
+.fieldsDivHeader {
+    margin: 24 0 7;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;    
+}

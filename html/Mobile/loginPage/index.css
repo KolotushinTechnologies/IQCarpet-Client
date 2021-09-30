@@ -156,8 +156,8 @@ input[type="checkbox"]:checked {
 }
 .menuContent2Line {
     width: 118px;
-    height: 0px;
-    border: 1px solid #FFFFFF;
+    height: 1px;
+    background-color: #FFFFFF;
 }
 
 .menuContent2Text {
