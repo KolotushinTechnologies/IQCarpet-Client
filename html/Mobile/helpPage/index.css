@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 79px);
+}
+
+.helpContent {
+    margin: 16 16 55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.helpHeader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.helpHeader2 {
+    margin-top: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.contactLinksDiv {
+    margin-top: 16;
+    width: 224;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactLink {
+    width: 24;
+    height: 24;
+}
+
+.contactsPhone {
+    margin-top: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.contactsLink {
+    margin-top: 4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.feedBackFormDiv {
+    margin-top: 32;
+    background: #F3F5FB;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 24 33 30 16;
+}
+
+.formHeader {
+    margin-left: 8;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8;
+}
+
+.feedBackFieldHeader {
+    margin-top: 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7A7D80;
+}
+
+.feedBackFieldText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.formTextarea {
+    margin-top: 4;
+    width: 100%;
+    height: 121;
+    border-width: 0;
+    outline: none;
+    resize: none;
+    border-radius: 12px;
+    padding: 5;
+}
+
+.addAttach {
+    width: 20.47;
+    height: 24;
+    margin: -36 12 0 auto;
+    z-index: 100;
+}
+
+.sendFormDiv {
+    margin-top: 32;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendFormDiv > button {
+    background: #5282C3;
+    border-radius: 16px;
+    padding: 4 16;
+    min-width: 241;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-width: 0;
+}
