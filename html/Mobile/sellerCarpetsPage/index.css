@@ -1,0 +1,360 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+#shadow {
+    z-index: 90;
+    background: rgba(0,0,0,0.64);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+span {
+    display: block;
+}
+
+.searchBox {
+    background: #DAE5F6;
+    padding: 12 0;
+    display: flex;
+    align-items: center;
+}
+
+.searchBoxInput {
+    background: url(images/searchBoxLoupeImage.png) left 12px center / 14px no-repeat #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    outline: none;
+    border-width: 0;
+    padding: 8.5 40;
+    width: 100%;
+    margin-left: 16;
+    margin-right: 53;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton {
+    margin: auto;
+    margin-top: 20;
+    margin-left: 16;
+    background: #FFFFFF;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #5282C3;
+    padding: 5 10;
+    display: flex;
+    align-items: center;
+}
+
+.backButton > img {
+    width: 4;
+    height: 8;
+    margin-right: 8;
+}
+
+.allSellersText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 24;
+    margin-left: 35;
+}
+
+.pagesDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26;
+    margin-bottom: 22;
+}
+
+.pagesDiv > a {
+    margin: auto 4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7A7D80;
+    text-decoration: none;
+}
+
+.filterBox {
+    position: absolute;
+    top: 76;
+    left: auto;
+    right: 0;
+    margin-bottom: auto;
+    background: #FFFFFF;
+    border-radius: 0px 0px 0px 8px;
+    padding: 3 20;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.filterBox[hidden="true"] {
+    transform: translateX(100%);
+}
+
+#filterBoxOpenButton {
+    width: 37;
+    height: 36.5;
+    position: absolute;
+    left: -37;
+    top: 0;
+    border-width: 0;
+    background-color: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+    padding: 8 11;
+    outline: none;
+}
+
+#filterBoxOpenButton > img {
+    width: 16;
+    height: 16;
+}
+
+.filterBoxHeader {
+    margin-top: 16;
+    margin-left: 16;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.filterBoxSum {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #5282C3;
+    margin-top: 20;
+    margin-left: 9;
+}
+
+.countLimitsDiv {
+    display: flex;
+    margin: 15 9;
+    justify-content: space-between;
+}
+
+.countLimitFromDiv, .countLimitToDiv {
+    display: flex;
+}
+
+.countLimitFromDiv > span, .countLimitToDiv > span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #7A7D80;
+}
+
+.countLimitFromDiv > input, .countLimitToDiv > input {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 12px;
+    color: #000000;
+    outline: none;
+    border-width: 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 58px;
+    margin-left: 8;
+    text-align: center;
+}
+
+.doubleSlider {
+    margin: 0 10;
+    width: 219;
+}
+
+.filterCategories {
+    margin-top: 30;
+    margin-left: 9;
+    margin-right: 9;
+}
+
+.filterCategory {
+    margin-top: 24;
+    display: flex;
+    flex-direction: column;
+}
+
+.filterCategoryHeader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #5282C3;
+    margin-bottom: 12;
+}
+
+.checkboxDiv {
+    margin: 4 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    outline: none;
+    border: 2px solid #5282C3;
+    border-radius: 25%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75% 75%;
+}
+
+input[type="checkbox"]:checked {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.checkboxDiv > span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    margin-left: 8;
+    color: #000000;
+}
+
+.checkboxDiv > input {
+    width: 16;
+    height: 16;
+}
+
+.filterSearchButtonDiv {
+    margin: 24 0 12 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterSearchButtonDiv > button {
+    height: 24;
+    background: #5282C3;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-width: 0;
+    width: 152;
+}
+
+.filteredItems {
+    margin: 16 0 0 12;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sortedItem {
+    display: flex;
+    background: #F3F5FB;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    width: 80;
+    height: 80;
+    margin: 4;
+    object-fit: cover;
+}
+
+.selectedItem {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    top: 226;
+    display: flex;
+    flex-direction: column;
+    background: #F3F5FB;
+    border-radius: 12px;
+    width: 240px;
+    z-index: 95;
+}
+
+.sortedItemIcon {
+    width: 100%;
+    height: 234;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.sortedItemAboutText {
+    margin: 8 12 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.sortedItemCarpetText {
+    margin: 8 12;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.contentHeader {
+    margin: 20 0 0 16;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.hidden {
+    display: none;
+}
