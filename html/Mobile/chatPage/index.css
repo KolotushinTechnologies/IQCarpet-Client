@@ -1,0 +1,269 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contentHeaderDiv {
+    background: #DAE5F6;
+    display: flex;
+    z-index: 50;
+}
+
+.backButton {
+    margin: auto 0 auto 16;
+    background: transparent;
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #5282C3;
+    padding: 5 10;
+    display: flex;
+    align-items: center;
+    height: 24;
+}
+
+.backButton > img {
+    width: 4;
+    height: 8;
+    margin-right: 8;
+}
+
+.headerUserImg {
+    margin: 10 0 6 8;
+    width: 40;
+    height: 40;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.headerUserInfoDiv {
+    margin-top: 12;
+    margin-left: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerUserInfoDivHeaderDiv {
+    display: flex;
+}
+
+.headerUserName {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.headerUserRole {
+    margin-left: 8;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.headerUserOnlineStatus {
+    margin-top: 4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.messagesDiv {
+    margin: 0 16;
+    height: calc(100vh - 64px - 56px - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.messagesDiv[attachments="true"] {
+    height: calc(100vh - 64px - 56px - 62px - 72px);
+}
+
+.timeMessage {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    margin: 0 auto 32;
+}
+
+.meesageBlock {
+    margin-bottom: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.myMessageBlock {
+    margin-left: auto;
+    margin-right: 0;
+    align-items: flex-end;
+}
+
+.userMessageBlock {
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 80%;
+    align-items: flex-start;
+}
+
+.message {
+    display: flex;
+    border-radius: 16px;
+    padding: 5 9;
+    margin-bottom: 8;
+    min-height: 32;
+    box-sizing: border-box;
+}
+
+.myMessageBlock > .message {
+    background: #DAE5F6;
+}
+
+.userMessageBlock > .message {
+    background: #C0CFE5;
+}
+
+.messageText {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.messageTime {
+    margin: auto auto 2 5;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+    color: #8E8E8E;
+}
+
+.attachments {
+    margin: 0 9;
+    display: flex;
+    overflow-x:scroll;
+}
+
+.inputPanel {
+    padding: 11 17 19 14;
+    display: flex;
+    align-items: center;
+}
+
+.addAttachButton {
+    width: 20.47;
+    height: 24;
+}
+
+.messageInput {
+    margin-left: 8;
+    width: 100%;
+    background: #C0CFE5;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 7 8;
+    border-width: 0;
+    outline: none;
+}
+
+.messageInput::placeholder {
+    color: #FFFFFF;
+}
+
+.sendButton {
+    margin-left: 8;
+    min-width: 32;
+    min-height: 32;
+    max-width: 32;
+    max-height: 32;
+    background: #5282C3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0;
+    padding: 0;
+}
+
+.sendButton > img {
+    width: 16;
+    height: 16;
+}
+
+.attachmentImage {
+    display: flex;
+    margin: 0;
+    margin-left: 8;
+    max-width: 72;
+    max-height: 72;
+    min-width: 72;
+    min-height: 72;
+}
+
+.attachmentImage:nth-child(1) {
+    margin-left: 0;
+}
+
+.imageToSend {
+    border-radius: 12px;
+    width: 72;
+    height: 72;
+    object-fit: contain;
+}
+
+.deleteAttachButton {
+    width: 16;
+    height: 16;
+    margin-top: 6;
+    margin-left: -22;
+    padding: 4;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border-width: 0;
+}
+
+.deleteAttachButton > img {
+    width: 8;
+    height: 8;
+}
