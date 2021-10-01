@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
