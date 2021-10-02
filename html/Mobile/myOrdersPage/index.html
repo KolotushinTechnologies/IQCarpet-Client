@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,900" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div id="shadow"></div>
+        <div class="header">
+            <img class="headerLogo" src="images/iQcarpet.png">
+            <select class="headerNavigation">
+                <option>Home</option>
+                <option>Sellers</option>
+                <option>How it works</option>
+                <option>Support</option>
+            </select>
+            <select class="languageSelection">
+                <option>ENG</option>
+                <option>RUS</option>
+            </select>
+        </div>
+        <div class="content">
+            <button class="backButton"><img src="images/buttonBackArrow.png">Back</button>
+            <div id="filterBox" class="filterBox" hidden="false">
+                <button id="filterBoxOpenButton">
+                    <img src="images/filterMenuImage.png">
+                </button>
+                <span class="filterBoxHeader">Filter</span>
+                <span class="filterCategoryHeader">Date</span>
+                <div class="dateDiv">
+                    <span class="dateHeader">From</span>
+                    <input class="dateInput" type="text" value="24.05.2021">
+                </div>
+                <div class="dateDiv">
+                    <span class="dateHeader">To</span>
+                    <input class="dateInput" type="text" value="28.06.2021">
+                </div>
+                <div class="filterCategories">
+                    <div class="filterCategory" style="margin-top: 0;">
+                        <span class="filterCategoryHeader">Status</span>
+                        <div class="checkboxDiv">
+                            <input type="checkbox">
+                            <span>New</span>
+                        </div>
+                        <div class="checkboxDiv">
+                            <input type="checkbox">
+                            <span>Under consideration</span>
+                        </div>
+                        <div class="checkboxDiv">
+                            <input type="checkbox">
+                            <span>Offer has been send</span>
+                        </div>
+                        <div class="checkboxDiv">
+                            <input type="checkbox">
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterSearchButtonDiv">
+                    <button>Search</button>
+                </div>
+            </div>
+            <span class="contentHeader">My orders (10)</span>
+            <div class="filteredItems">
+                <div class="orderCard selectedOrderCard">
+                    <img class="orderImage" src="images/orderCardImage1.png">
+                    <span class="orderSellerName">Favorit-Capret</span>
+                    <span class="orderStatus">Offer has been sent</span>
+                    <button class="orderSendMessageButton">Send Message</button>
+                    <button class="orderDeleteOrderButton">Delete a order</button>
+                </div>
+                <div class="orderCard">
+                    <img class="orderImage" src="images/orderCardImage1.png">
+                    <span class="orderSellerName">Favorit-Capret</span>
+                    <span class="orderStatus">Closed</span>
+                    <button class="orderSendMessageButton">Send Message</button>
+                    <button class="orderDeleteOrderButton">Delete a order</button>
+                </div>
+                <div class="orderCard selectedOrderCard">
+                    <img class="orderImage" src="images/orderCardImage1.png">
+                    <span class="orderSellerName">Favorit-Capret</span>
+                    <span class="orderStatus">Offer has been sent</span>
+                    <button class="orderSendMessageButton">Send Message</button>
+                    <button class="orderDeleteOrderButton">Delete a order</button>
+                </div>
+                <div class="orderCard">
+                    <img class="orderImage" src="images/orderCardImage1.png">
+                    <span class="orderSellerName">Favorit-Capret</span>
+                    <span class="orderStatus">Closed</span>
+                    <button class="orderSendMessageButton">Send Message</button>
+                    <button class="orderDeleteOrderButton">Delete a order</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            filterBoxOpenButton.addEventListener("click", function(){
+                if(filterBox.getAttribute("hidden") == "false") {
+                    filterBox.setAttribute("hidden", "true");
+                    shadow.classList.add("hidden");
+                } else {
+                    filterBox.setAttribute("hidden", "false");
+                    shadow.classList.remove("hidden");
+                }
+            });
+            shadow.addEventListener("click", function(){
+                filterBox.setAttribute("hidden", "true");
+                shadow.classList.add("hidden");
+            });
+        </script>
+        <div class="footer">
+            <div class="footerHeaderDiv">
+                <img class="footerHeaderImage" src="images/iQcarpet.png"></img>
+                <span class="footerHeaderText">Connect with Community</span>
+            </div>
+            <div class="footerCommunityLinks">
+                <a class="footerCommunityLink" href="/"><img class="footerCommunityLink1" src="images/footerLink1Image.png"></img></a>
+                <a class="footerCommunityLink" href="/"><img class="footerCommunityLink2" src="images/footerLink2Image.png"></img></a>
+                <a class="footerCommunityLink" href="/"><img class="footerCommunityLink3" src="images/footerLink3Image.png"></img></a>
+            </div>
+            <span class="footerSignUpForMessagesText">Sign up for our message</span>
+            <div class="sendEmailDiv">
+                <input class="signUpForMessagesEmail" placeholder="Enter your e-mail"></input>
+                <button class="sendEmailButton">SEND</button>
+            </div>
+            <div class="footerNavigation">
+                <a href="/" class="footerNavigationText">Home</a>
+                <a href="/" class="footerNavigationText">Sellers</a>
+                <a href="/" class="footerNavigationText">How it works</a>
+                <a href="/" class="footerNavigationText">Support</a>
+            </div>
+            <div class="footerCopyrights">
+                <span class="footerCopyrightsCompanyEmail">Meil@kom.iuo</span>
+                <span class="footerCopyrightsText">© 2021 Rochacoin</span>
+            </div>
+        </div>
+    </body>
+</html>
