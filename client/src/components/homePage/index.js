@@ -5,11 +5,11 @@ import PCHomePage from "./PC/homePage";
 
 function HomePage({pageFormat}) {
     console.log(pageFormat);
-	return (
-		<Fragment>
+    return (
+        <Fragment>
             {pageFormat == "Mobile" ? <MobileHomePage/> : <PCHomePage/>}
         </Fragment>
-	);
+    );
 }
 
 const mapStateToProps = state => ({

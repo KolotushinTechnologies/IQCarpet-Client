@@ -6,15 +6,15 @@ import HomePage from "./components/homePage/index"
 import store from './store';
 
 function App() {
-	return (
-		<Provider store={store}>
-		  	<Router>
-				<Switch>
-					<Route exact path="/" component={HomePage} />
-				</Switch>
-		  	</Router>
-		</Provider>
-	);
+    return (
+        <Provider store={store}>
+              <Router>
+                <Switch>
+                    <Route exact path="/" component={HomePage} />
+                </Switch>
+              </Router>
+        </Provider>
+    );
 }
 
 export default App;
