@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,900" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="headerLeftSide">
+                <img class="headerLogo" src="images/iQcarpet.png">
+                <a href="" class="headerChapter">Home</a>
+                <a href="" class="headerChapter">Sellers</a>
+                <a href="" class="headerChapter">How it works</a>
+                <a href="" class="headerChapter">Support</a>
+            </div>
+            <div class="headerRightSide">
+                <select class="languageSelection">
+                    <option>ENG</option>
+                </select>
+            </div>
+        </div>
+        <img class="illustration" src="images/illustration.png">
+        <div class="menu">
+            <div class="menuContent">
+                <div class="authTypeButtons">
+                    <span class="registrationButton">Registration</span>
+                    <span class="loginButton">Log in</span>
+                    <div class="authTypeButtonsMarker"></div>
+                </div>
+                <div class="columns">
+                    <div class="column1">
+                        <div class="column1Element">
+                            <p class="registrationFieldText">Enter a your surname&name&patronymic</p>
+                            <input class="registrationFieldInput" required name="name" type="text" placeholder="Name"></input>
+                            <div class="issellerDiv">
+                                <input id="issellercheckbox" type="checkbox" checked="on" name="isSeller"/><label htmlFor="issellercheckbox">I am seller</label>
+                            </div>
+                        </div>
+                        <div class="column1Element" style="margin-top: 32px;">
+                            <p class="registrationFieldText">Enter a Company's name</p>
+                            <input class="registrationFieldInput" required name="companyName" type="text" placeholder="Company's name"></input>
+                        </div>
+                        <div class="column1Element">
+                            <p class="registrationFieldText">Enter a your BirthDay</p>
+                            <div class="birthDaySelectDiv">
+                                <select class="selectBirthday"><option>1</option></select>
+                                <select class="selectBirthday"><option>January</option></select>
+                                <select class="selectBirthday"><option>2021</option></select>
+                            </div>
+                        </div>
+                        <div class="column1Element">
+                            <p class="registrationFieldText">Choose a your location</p>
+                            <input id="selectCountryInput" class="selectBirthday selectCountry" placeholder="Sity & Country" required/>
+                            <!-- <div id="datalistOfCountries" class="hiden"></div> -->
+                        </div>
+                        <div class="column1Element">
+                            <p class="registrationFieldText">Download a your photo</p>
+                            <p class="registrationFieldSubText">Png/Jpeg & up to 10 MB</p>
+                            <div class="downloadPhotoButton">Tap for download</div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <div class="column2Element" style="margin-top: 16px;">
+                            <p class="registrationFieldText">Enter a phone number</p>
+                            <div class="phoneInputs">
+                                <input class="registrationFieldInput enterPhoneInputMask" required name="phoneMask" readOnly value="+7"></input>
+                                <input class="registrationFieldInput enterPhoneInput" required name="phone"></input>
+                            </div>
+                        </div>
+                        <div class="column2Element" data-field="makelogin">
+                            <p class="registrationFieldText">Make a your login</p>
+                            <p class="registrationFieldSubText">Latin letters and numbers without spaces</p>
+                            <input class="registrationFieldInput" required name="login" type="text"></input>
+                        </div>
+                        <div class="column2Element" data-field="password">
+                            <p class="registrationFieldText">Make a your Password</p>
+                            <p class="registrationFieldSubText">At least 6 characters</p>
+                            <input class="registrationFieldInput" required name="password" type="password" placeholder="Password"></input><img class="showPassword" src="images/showPassword.png">
+                        </div>
+                        <div class="column2Element" data-field="repeatPassword">
+                            <p class="registrationFieldText">Repeat a Password</p>
+                            <input class="registrationFieldInput repeatPassword" required placeholder="Password"></input><img class="showPassword" src="images/showPassword.png">
+                        </div>
+                        <div class="column2Element" data-field="email">
+                            <p class="registrationFieldText">Enter your Email</p>
+                            <input class="registrationFieldInput" required name="email" type="text" placeholder="Email"></input><br/>
+                            <div class="issellerDiv">
+                                <input id="usehowlogincheckbox" type="checkbox"/><label htmlFor="usehowlogincheckbox">Use how login</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="submitButtonDiv">
+                    <button class="submitButton">Go</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

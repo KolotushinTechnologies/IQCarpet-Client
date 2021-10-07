@@ -1,0 +1,606 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    display: block;
+}
+
+.illustration {
+    margin-top: 143;
+    margin-left: 71;
+    width: 699;
+    height: 678;
+}
+
+.menu {
+    position: absolute;
+    left: auto;
+    right: 40;
+    top: 119px;
+}
+
+.menuContent {
+    padding: 30 40;
+    background: #F3F5FB;
+    border-radius: 16px;
+}
+
+.menuContent2 {
+    margin-top: 40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20 0;
+}
+
+.authTypeButtons {
+    display: flex;
+    align-items: center;
+}
+
+.registrationButton {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 35;
+}
+
+.loginButton {
+    font-size: 18px;
+    line-height: 28px;
+    color: #7A7D80;
+    margin-left: 113;
+}
+
+.authTypeButtonsMarker {
+    height: 0px;
+    border: 1px solid #5282C3;
+    position: absolute;
+    width: 175;
+    left: 41;
+    top: 62;
+}
+
+.columns {
+    display: flex;
+    margin-top: 16;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24;
+}
+
+.fieldName {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.fieldInput {
+    margin-top: 8;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border-width: 0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 4 16;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    width: 353px;
+    height: 32px;
+}
+
+.fieldInputDiv {
+    margin-top: 8;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    outline: none;
+}
+
+.showPassword {
+    margin-left: -40;
+    margin-bottom: -3;
+}
+
+.forgotPasswor {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5282C3;
+}
+
+.lastMenuFields {
+    margin-top: 16;
+    display: flex;
+    justify-content: space-between;
+}
+
+.isSellerDiv {
+    display: flex;
+    align-items: center;
+}
+
+
+input[type="checkbox"] {
+    margin: 0;
+    outline: none;
+    border: 2px solid #5282C3;
+    border-radius: 25%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75% 75%;
+}
+
+input[type="checkbox"]:checked {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.isSellerCheckbox {
+    width: 16;
+    height: 16;
+}
+
+.isSellerText {
+    font-size: 14px;
+    line-height: 12px;
+    margin-left: 8;
+}
+
+.submitButtonDiv {
+    margin-top: 32;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.submitButton {
+    background: #5282C3;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-width: 0;
+    width: 241;
+}
+
+.menuContent2Line {
+    width: 151px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+.menuContent2Text {
+    font-size: 14px;
+    line-height: 12px;
+    color: #8E8E8E;
+}
+
+.menuContent2TextDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 87%;
+}
+
+.menuContent2Links {
+    display: flex;
+    margin-top: 10;
+    align-items: flex-end;
+}
+
+.menuContent2Link {
+    margin: 0 16;
+}
+
+.menuContent2Link1Image {
+    max-width: 25;
+    max-height: 24;
+}
+
+.menuContent2Link2Image {
+    max-width: 26;
+    max-height: 24;
+}
+
+.menuContent2Link3Image {
+    max-width: 25;
+    max-height: 28;
+}
+
+
+
+
+.registrationFieldText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0;
+}
+
+.registrationFieldSubText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0;
+    margin-top: 4;
+}
+
+.downloadPhotoButton {
+    margin: 8 0 0;
+    background: #C0CFE5;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5282C3;
+    padding: 4 16;
+}
+
+.registrationFieldInput {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border-width: 0;
+    padding-left: 16;
+    padding-right: 16;
+    width: 350;
+    height: 32;
+    margin-top: 8;
+}
+
+.registrationFieldInput:focus {
+    box-shadow: 0 0 1px 1px black;
+    outline: none;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+label[for="issellercheckbox"], label[for="usehowlogincheckbox"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #000000;
+    margin-left: 8;
+    user-select: none;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+#issellercheckbox, #usehowlogincheckbox {
+    margin: 0;
+    outline: none;
+    border: 2px solid #5282C3;
+    border-radius: 25%;
+    width: 18;
+    height: 18;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75% 75%;
+}
+
+#issellercheckbox:checked, #usehowlogincheckbox:checked {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.issellerDiv {
+    margin-top: 16;
+    height: 16;
+    display: flex;
+    align-items: center;
+}
+
+.issellerDiv > label {
+    margin-left: 8;
+}
+
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 {
+    margin-left: 72;
+}
+
+.column1Element:nth-child(1) {
+    margin-top: 16;
+}
+
+.column1Element:nth-child(2) {
+    margin-top: 16;
+}
+
+.column1Element:nth-child(3) {
+    margin-top: 48;
+}
+
+.column1Element:nth-child(4) {
+    margin-top: 48;
+}
+
+.column1Element:nth-child(5) {
+    margin-top: 48;
+}
+
+.column2Element:nth-child(1) {
+    margin-top: 16;
+}
+
+.column2Element:nth-child(2) {
+    margin-top: 32;
+}
+
+.column2Element:nth-child(3) {
+    margin-top: 32;
+}
+
+.column2Element:nth-child(3):not(div[data-field="password"]) {
+    margin-top: 48;
+}
+
+.column2Element:nth-child(4) {
+    margin-top: 48;
+}
+
+.column2Element:nth-child(5) {
+    margin-top: 50;
+}
+
+.birthDaySelectDiv {
+    margin-top: 8;
+    display: flex;
+    width: 350;
+    height: 32;
+    justify-content: space-between;
+}
+
+.submitButtonDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.submitButtonDiv > button {
+    background: #5282C3;
+    border-radius: 16px;
+    border-width: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    width: 240;
+    margin-top: 30;
+}
+
+
+.selectBirthday {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
+    padding: 5 35 5 16;
+    border-radius: 16px;
+    border-width: 0;
+    outline: none;
+    height: 32;
+    background: url(images/selectArrow.png) right 12px center / 12px no-repeat #FFFFFF;
+}
+
+/* .selectBirthday::-ms-expand {
+    display: none;
+} */
+
+.selectCountry {
+    margin-top: 8;
+    width: 350;
+    background: url("/images/selectArrow.png")  95% / 12px no-repeat #FFFFFF;
+}
+
+.phoneInputs {
+    display: flex;
+    width: 350;
+    margin-top: 8;
+    /* justify-content: space-between; */
+}
+
+.enterPhoneInputMask {
+    min-width: 9%;
+    width: auto;
+    padding-left: 3;
+    padding-right: 3;
+    text-align: center;
+    margin: 0;
+}
+
+.enterPhoneInput {
+    width: 100%;
+    margin: 0;
+    margin-left: 8px;
+}
+
+.chosePhotoFile {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5282C3;
+    background-color: #C0CFE5;
+    padding-left: 16;
+    padding-top: 4;
+    padding-bottom: 4;
+    border-radius: 16px;
+    min-width: 350px;
+    margin-top: 8;
+}
+
+/* .chosePhotoFile {
+    display: none;
+}
+
+.chosePhotoFile::before {
+    display: inline-block;
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.chosePhotoFile:hover::before {
+    border-color: black;
+}
+
+.chosePhotoFile:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+} */
+
+input[validation]:not(input[validation="true"]) {
+    border: 1px solid #FF004D;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.hiden {
+    display: none;
+}
+
+.errorText {
+    position: absolute;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FF004D;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+#datalistOfCountries {
+    position: absolute;
+    max-height: 30vh;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 100;
+    cursor: default;
+}
+
+#datalistOfCountries::-webkit-scrollbar {
+    width: 5px;
+}
+
+#datalistOfCountries::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+#datalistOfCountries::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 16px;
+}
+
+.datalistSelect {
+    width: 99%;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 1%;
+}
+
+.countriesSelectArrow {
+    height: 7.5px;
+    margin-right: 10px;
+}
+
+.countryTextButton {
+    padding: 0;
+    border-width: 0;
+    background-color: transparent;
+}
