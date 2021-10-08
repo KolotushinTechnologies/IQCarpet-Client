@@ -103,15 +103,6 @@
     color: #F8F9FA;
 }
 
-.communityLinks {
-    margin-top: 30;
-    display: flex;
-}
-
-.communityLink {
-    margin-right: 19;
-}
-
 .signUpForMessages {
     font-family: Montserrat;
     font-style: normal;
