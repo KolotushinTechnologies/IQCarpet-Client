@@ -1,0 +1,21 @@
+.backButton {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.backButton > button {
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 0 22px 0 40px;
+    height: 38px;
+    min-width: 108px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5282C3;
+    background: url(../../img/buttonBackArrow.png) left 16px center / 8px no-repeat transparent;
+}

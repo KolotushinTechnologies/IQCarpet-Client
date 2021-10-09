@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Import Components
-import Header from "./components/layout/header/Header";
+import Header from "./components/layout/header/Header.jsx";
 import Footer from "./components/layout/footer/Footer";
 import HomePage from "./components/homePage/HomePage";
 import Routes from "./components/routing/Routes";

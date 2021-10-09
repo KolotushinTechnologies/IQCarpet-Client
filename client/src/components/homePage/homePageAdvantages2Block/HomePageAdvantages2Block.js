@@ -1,3 +1,6 @@
+// Import Engine
+import React from "react";
+
 import advantages2Image from "../../../img/advantages2_1.png";
 import advantages2Image2 from "../../../img/advantages2_2.png";
 import advantage2Image from "../../../img/advantages2Image.png";
