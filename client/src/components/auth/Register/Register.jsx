@@ -52,7 +52,7 @@ const Register = () => {
                     <span className="authFieldSubName">Png/Jpeg & up to 10 MB</span>
                     <label className="regDownloadImageDiv">
                         <div className="regDownloadImageBG">Tap for download</div>
-                        <input className="regDownloadImageInput" type="file"></input>
+                        <input className="regDownloadImageInput" type="file" accept="image/*"></input>
                     </label>
                 </div>
             </div>

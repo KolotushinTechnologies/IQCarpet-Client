@@ -2,6 +2,8 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import './App.css';
+
 // Import Components
 import Header from "./components/layout/header/Header.jsx";
 import Footer from "./components/layout/footer/Footer";
