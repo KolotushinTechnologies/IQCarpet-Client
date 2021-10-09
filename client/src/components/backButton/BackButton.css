@@ -19,3 +19,20 @@
     color: #5282C3;
     background: url(../../img/buttonBackArrow.png) left 16px center / 8px no-repeat transparent;
 }
+
+@media (max-width: 700) {
+    .backButton {
+        display: inline-block;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    .backButton > button {
+        padding: 0 10px 0 23px;
+        height: 24px;
+        min-width: 64px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

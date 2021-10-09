@@ -17,3 +17,13 @@
     padding: 4px 16px;
     border-width: 0;
 }
+
+@media (max-width: 700px) {
+    .newOrderButton {
+        display: none;
+    }
+
+    .backButton {
+        display: none;
+    }
+}

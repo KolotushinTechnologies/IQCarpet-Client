@@ -1,5 +1,5 @@
 // Import Engine
-import React from "react";
+import React, { Fragment } from "react";
 import { Route, Switch } from "react-router-dom";
 
 // Import Components
@@ -13,7 +13,7 @@ import Support from "../support/Support";
 
 function Routes() {
   return (
-    <div>
+    <Fragment>
       <Switch>
         <Route exact path="/register" component={Auth} />
         <Route exact path="/login" component={Auth} />
@@ -23,7 +23,7 @@ function Routes() {
         <Route exact path="/support" component={Support} />
         {/* <PrivateRoute exact path="/dashboard" component={Dashboard} /> */}
       </Switch>
-    </div>
+    </Fragment>
   );
 }
 

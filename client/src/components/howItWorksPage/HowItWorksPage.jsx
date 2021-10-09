@@ -1,11 +1,11 @@
 // Import Engine
 import React, { Fragment } from "react";
-
-import "./HowItWorksPage.css";
+import { Link } from "react-router-dom";
 
 import HowItWorksElement from "../howItWorks/HowItWorks";
 import BackButton from "../backButton/BackButton";
-import { Link } from "react-router-dom";
+
+import "./HowItWorksPage.css";
 
 const HowItWorksPage = () => (
     <Fragment>
