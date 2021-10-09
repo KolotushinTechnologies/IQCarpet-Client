@@ -15,6 +15,8 @@ function Header() {
     var authButtons = <Fragment>
         <button className="loginbutton">Log In</button>
         <button className="signupbutton">Sign Up</button>
+        {/* <Link to="" className="button loginbutton">Log In</Link>
+        <Link to="" className="button signupbutton">Sign Up</Link> */}
     </Fragment>
 
     return (
