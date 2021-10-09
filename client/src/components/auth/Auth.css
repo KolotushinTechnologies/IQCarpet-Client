@@ -23,8 +23,7 @@
 }
 
 .authField {
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .authFieldName {
