@@ -14,6 +14,7 @@ function App() {
   return (
     <Router>
       <Fragment>
+        <div id="shadow" />
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />

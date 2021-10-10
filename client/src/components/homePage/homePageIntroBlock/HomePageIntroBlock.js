@@ -16,12 +16,12 @@ function HomePageIntroBlock(){
                 <span className="slogtext1 slogtext2">USING OUR INNOVATIVE SEARCH PLATFORM</span>
                 <img className="homePageIntroImage1M" src={HomePageIntroImageM}/>
                 <div className="registerButtonsDiv">
-                    <Link to="/register" className="registerBuyer"><button>Register as a buyer</button></Link>
-                    <Link to="/register" className="registerSeller"><button>Register as a seller</button></Link>
+                    <Link to="/register" className="registerBuyer">Register as a buyer</Link>
+                    <Link to="/register" className="registerSeller">Register as a seller</Link>
                 </div>
                 <div className="authButtonsDiv">
-                    <Link to="/login" className="logInButton"><button>Log In</button></Link>
-                    <Link to="/register" className="signUpButton"><button>Sign Up</button></Link>
+                    <Link to="/login" className="logInButton">Log In</Link>
+                    <Link to="/register" className="signUpButton">Sign Up</Link>
                 </div>
             </div>
         </div>

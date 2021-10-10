@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footerContent1">
         <div className="footerContent1Block1">
-          <div class="footerHeaderDiv">
+          <div className="footerHeaderDiv">
             <img className="footerHeaderImage" src={iQcarpetLogo}></img>
             <p className="footerText">
               Maecenas nec rutrum odio. Sed scelerisque urna eget augue laoreet,

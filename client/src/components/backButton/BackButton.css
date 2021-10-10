@@ -20,7 +20,7 @@
     background: url(../../img/buttonBackArrow.png) left 16px center / 8px no-repeat transparent;
 }
 
-@media (max-width: 700) {
+@media (max-width: 700px) {
     .backButton {
         display: inline-block;
         margin-left: 16px;
@@ -34,5 +34,6 @@
         font-weight: 500;
         font-size: 12px;
         line-height: 12px;
+        background: url(../../img/buttonBackArrow.png) left 11px center / 4px no-repeat transparent;
     }
 }

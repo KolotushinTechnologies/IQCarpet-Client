@@ -51,7 +51,7 @@
     color: #000000;
 }
 
-.registerBuyer > button, .registerSeller > button {
+.registerBuyer, .registerSeller {
     background: #5282C3;
     border-color: rgba(0,0,0,0);
     border-radius: 24px;
@@ -61,7 +61,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    padding: 11px 34px;
+    padding: 12px 34px;
+    text-decoration: none;
     position: relative;
     box-sizing: border-box;
 }
@@ -138,10 +139,10 @@
     
     .logInButton {
         width: 40%;
-    }
-
-    .logInButton > button {
         background: #5282C3;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
         border-radius: 31px;
         font-family: Montserrat;
         font-style: normal;
@@ -150,20 +151,18 @@
         line-height: 17px;
         color: #FFFFFF;
         border-width: 0;
-        padding: 7.5px 16px;
+        padding: 6.5px 16px;
         min-width: 100px;
-        width: 100%;
         max-width: 200px;
     }
     
     .signUpButton {
         width: 40%;
-    }
-
-    .signUpButton > button {
         background: #FFFFFF;
         border: 1px solid #5282C3;
         box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
         border-radius: 31px;
         font-family: Montserrat;
         font-style: normal;
@@ -171,9 +170,8 @@
         font-size: 14px;
         line-height: 17px;
         color: #335991;
-        padding: 7.5px 16px;
+        padding: 6.5px 16px;
         min-width: 100px;
-        width: 100%;
         max-width: 200px;
     }
 }

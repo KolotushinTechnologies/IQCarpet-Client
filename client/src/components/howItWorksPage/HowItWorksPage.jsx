@@ -9,7 +9,7 @@ import "./HowItWorksPage.css";
 
 const HowItWorksPage = () => (
     <Fragment>
-        <BackButton />
+        <BackButton className="hiw_backButtonDiv" />
         <HowItWorksElement />
         <div className="newOrderButton">
             <Link to="/newOrder">

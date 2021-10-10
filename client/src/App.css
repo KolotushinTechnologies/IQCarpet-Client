@@ -5,3 +5,17 @@ body {
 .hiden {
     display: none;
 }
+
+.hidden {
+    display: none;
+}
+
+#shadow {
+    z-index: 50;
+    background: rgba(0,0,0,0.64);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}

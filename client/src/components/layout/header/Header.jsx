@@ -19,12 +19,8 @@ function Header() {
 
   const authButtons = (
     <Fragment>
-      <Link to="/login" className="loginbutton">
-        <button>Log In</button>
-      </Link>
-      <Link to="/register" className="signupbutton">
-        <button>Sign Up</button>
-      </Link>
+      <Link to="/login" className="loginbutton">Log In</Link>
+      <Link to="/register" className="signupbutton">Sign Up</Link>
     </Fragment>
   );
 

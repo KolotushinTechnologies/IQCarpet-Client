@@ -18,6 +18,7 @@ function Routes() {
         <Route exact path="/register" component={Auth} />
         <Route exact path="/login" component={Auth} />
         <Route exact path="/password_recovery" component={Auth} />
+        <Route exact path="/new_password" component={Auth} />
         <Route exact path="/how-it-works" component={HowItWorksPage} />
         <Route exact path="/sellers" component={Sellers} />
         <Route exact path="/support" component={Support} />
