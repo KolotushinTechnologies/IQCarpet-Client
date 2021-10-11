@@ -8,6 +8,9 @@ import Auth from "../auth/Auth";
 import HowItWorksPage from "../howItWorksPage/HowItWorksPage";
 import Sellers from "../sellers/Sellers";
 import Support from "../support/Support";
+import Profile from "../profile/Profile";
+import Chats from "../chats/Chats";
+import Orders from "../orders/Orders";
 
 // Import Styles
 
@@ -22,6 +25,9 @@ function Routes() {
         <Route exact path="/how-it-works" component={HowItWorksPage} />
         <Route exact path="/sellers" component={Sellers} />
         <Route exact path="/support" component={Support} />
+        <Route exact path="/profile" component={Profile} />
+        <Route exact path="/chats" component={Chats} />
+        <Route exact path="/orders" component={Orders} />
         {/* <PrivateRoute exact path="/dashboard" component={Dashboard} /> */}
       </Switch>
     </Fragment>
