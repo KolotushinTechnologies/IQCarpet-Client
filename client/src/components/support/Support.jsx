@@ -1,12 +1,6 @@
 // Import Engine
 import React from "react";
 
-import LinkImage1 from "../../img/helpContactsLinkImage1.png";
-import LinkImage2 from "../../img/helpContactsLinkImage2.png";
-import LinkImage3 from "../../img/helpContactsLinkImage3.png";
-import LinkImage4 from "../../img/helpContactsLinkImage4.png";
-import LinkImage5 from "../../img/helpContactsLinkImage5.png";
-import LinkImage6 from "../../img/helpContactsLinkImage6.png";
 import AddAttachImage from "../../img/helpAddAttachImage.png";
 
 import "./Support.css";
@@ -16,12 +10,12 @@ const Support = () => {
         <span className="helpHeader">HELP</span>
         <span className="helpSubHeader">Still have questions? Do you have any suggestions for the site? Having a problem? Fill out the feedback form and we will contact you! Or write to us!</span>
         <div className="contactLinksDiv">
-            <a href="/"><img className="contactLink" src={LinkImage1} /></a>
-            <a href="/"><img className="contactLink" src={LinkImage2} /></a>
-            <a href="/"><img className="contactLink" src={LinkImage3} /></a>
-            <a href="/"><img className="contactLink" src={LinkImage4} /></a>
-            <a href="/"><img className="contactLink" src={LinkImage5} /></a>
-            <a href="/"><img className="contactLink" src={LinkImage6} /></a>
+            <a href="/" className="contactLink contactsLinkImage1_32"></a>
+            <a href="/" className="contactLink contactsLinkImage2_32"></a>
+            <a href="/" className="contactLink contactsLinkImage3_32"></a>
+            <a href="/" className="contactLink contactsLinkImage4_32"></a>
+            <a href="/" className="contactLink contactsLinkImage5_32"></a>
+            <a href="/" className="contactLink contactsLinkImage6_32"></a>
         </div>
         <div className="helpContactsTextDiv">
             <span className="helpPhone">+7 (996) 053 81 10</span>

@@ -11,6 +11,7 @@ import Support from "../support/Support";
 import Profile from "../profile/Profile";
 import Chats from "../chats/Chats";
 import Orders from "../orders/Orders";
+import Company from "../company/Company";
 
 // Import Styles
 
@@ -28,6 +29,7 @@ function Routes() {
         <Route exact path="/profile" component={Profile} />
         <Route exact path="/chats" component={Chats} />
         <Route exact path="/orders" component={Orders} />
+        <Route exact path="/company" component={Company} />
         {/* <PrivateRoute exact path="/dashboard" component={Dashboard} /> */}
       </Switch>
     </Fragment>

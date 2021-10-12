@@ -16,7 +16,7 @@ const ProfileInfo = () => {
                         <span className="profileNameText">Gavrilova Hanna Igorevna</span>
                         <span className="profileRoleText">Buyer</span>
                     </div>
-                    <span className="moreDetailsText" active={!mobileInfoHidden + ""} onClick={() => setMobileInfoHidden(!mobileInfoHidden)} >More details<img src={ButtonBackArrow} /></span>
+                    <span className="moreDetailsText" active={!mobileInfoHidden + ""} onClick={() => setMobileInfoHidden(!mobileInfoHidden)} >More details<img src={ButtonBackArrow} /></span> {/* TODO: Replace to compponent */}
                     <div className="editExitButtonsDiv">
                         <button className="editButton">Edit</button>
                         <button className="exitButton">Exit</button>
