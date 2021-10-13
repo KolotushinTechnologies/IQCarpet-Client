@@ -12,6 +12,8 @@ import Profile from "../profile/Profile";
 import Chats from "../chats/Chats";
 import Orders from "../orders/Orders";
 import Company from "../company/Company";
+import NewOrder from "../newOrder/NewOrder";
+import Page404 from "../404/404";
 
 // Import Styles
 
@@ -30,7 +32,9 @@ function Routes() {
         <Route exact path="/chats" component={Chats} />
         <Route exact path="/orders" component={Orders} />
         <Route exact path="/company" component={Company} />
+        <Route exact path="/new-order" component={NewOrder} />
         {/* <PrivateRoute exact path="/dashboard" component={Dashboard} /> */}
+        <Route path="/" component={Page404} />
       </Switch>
     </Fragment>
   );

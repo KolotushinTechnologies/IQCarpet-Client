@@ -20,6 +20,15 @@ body {
     position: fixed;
 }
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 .contactsLinkImage1_32 {
     background: url('./img/contactsLinkImage1_32x32.png') no-repeat center center/cover;
 }
