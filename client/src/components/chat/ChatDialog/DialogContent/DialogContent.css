@@ -1,0 +1,94 @@
+.dialogContent {
+    width: 100%;
+    /* height: 100%; */
+    background: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+.dialogScroll {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.dialogScroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.dialogScroll::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.dialogScroll::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 16px;
+}
+
+
+.messageBlock {
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.timeMessage {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.message {
+    margin: 6px auto 6px 0;
+    display: flex;
+
+    max-width: 60%;
+
+    background: #DAE5F6;
+    border-radius: 16px;
+}
+
+.messageFromUser {
+    justify-content: flex-end;
+    margin: 6px 0 6px auto;
+    background: #FFFFFF;
+}
+
+.messageText {
+    margin: 12px 0 10px 16px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.messageTime {
+    float: right;
+    margin: auto 15px 10px 8px;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+
+
+@media (max-width: 700px) {
+    .messageBlock {
+        margin: 12px 16px;
+    }
+
+    .timeMessage {
+        margin: 8px 0;
+        line-height: 14px;
+    }
+
+    .message {
+        margin: 4px auto 4px 0;
+        max-width: 80%;
+        background: #C0CFE5;
+    }
+
+    .messageFromUser {
+        margin: 4px 0 4px auto;
+        background: #DAE5F6;
+    }
+}

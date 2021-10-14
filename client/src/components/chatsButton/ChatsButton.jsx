@@ -5,9 +5,9 @@ import "./ChatsButton.css";
 
 const ChatsButton = () => {
     return (
-        <Link to="/chats" className="chatsBlock">
+        <Link to="/chat" className="chatBtnBlock">
             My Chats
-            <div className="chatsNotify"></div>
+            <div className="chatBtnNotify"></div>
         </Link>
     )
 }

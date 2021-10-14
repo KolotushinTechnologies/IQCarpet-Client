@@ -1,4 +1,4 @@
-.chatsBlock {
+.chatBtnBlock {
     margin: 32px 40px 0 0;
     box-sizing: border-box;
     height: 60px;
@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 
-.chatsNotify {
+.chatBtnNotify {
     display: inline-block;
     margin: 3px 2px auto;
     width: 12px;
@@ -30,7 +30,7 @@
 
 
 @media (max-width: 700px) {
-    .chatsBlock {
+    .chatBtnBlock {
         min-width: 113px;
         height: 32px;
         font-size: 14px;
@@ -39,7 +39,7 @@
         padding: 6px 16px;
     }
 
-    .chatsNotify {
+    .chatBtnNotify {
         margin: 0 0 auto;
         width: 8px;
         height: 8px;

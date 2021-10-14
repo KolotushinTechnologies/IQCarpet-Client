@@ -1,6 +1,5 @@
 // Import Engine
 import React from "react";
-import { useLocation } from "react-router";
 
 // Import Styles
 import iQcarpetLogo from "../../../img/iQcarpet.png";

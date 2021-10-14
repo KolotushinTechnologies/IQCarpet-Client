@@ -9,7 +9,7 @@ import HowItWorksPage from "../howItWorksPage/HowItWorksPage";
 import Sellers from "../sellers/Sellers";
 import Support from "../support/Support";
 import Profile from "../profile/Profile";
-import Chats from "../chats/Chats";
+import Chat from "../chat/Chat";
 import Orders from "../orders/Orders";
 import Company from "../company/Company";
 import NewOrder from "../newOrder/NewOrder";
@@ -29,11 +29,13 @@ function Routes() {
         <Route exact path="/sellers" component={Sellers} />
         <Route exact path="/support" component={Support} />
         <Route exact path="/profile" component={Profile} />
-        <Route exact path="/chats" component={Chats} />
+        <Route exact path={["/chat", "/chat/:id"]} component={Chat} />
         <Route exact path="/orders" component={Orders} />
         <Route exact path="/company" component={Company} />
         <Route exact path="/new-order" component={NewOrder} />
+        
         {/* <PrivateRoute exact path="/dashboard" component={Dashboard} /> */}
+
         <Route path="/" component={Page404} />
       </Switch>
     </Fragment>

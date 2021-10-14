@@ -10,19 +10,19 @@ import "./HomePageAdvantagesBlock.css";
 function HomePageAdvantagesBlock() {
     return (
         <div className="advantagesBlock">
-            <p class="advantagesHeader">ADVANTAGES</p>
-            <div class="advantagesDiv">
-                <div class="advantage">
-                    <img class="advantageImage" src={advantageImage1}></img>
-                    <p class="advantageText">New source of direct sales</p>
+            <p className="advantagesHeader">ADVANTAGES</p>
+            <div className="advantagesDiv">
+                <div className="advantage">
+                    <img className="advantageImage" src={advantageImage1}></img>
+                    <p className="advantageText">New source of direct sales</p>
                 </div>
-                <div class="advantage">
-                    <img class="advantageImage" src={advantageImage2}></img>
-                    <p class="advantageText">Constant feedback from the client</p>
+                <div className="advantage">
+                    <img className="advantageImage" src={advantageImage2}></img>
+                    <p className="advantageText">Constant feedback from the client</p>
                 </div>
-                <div class="advantage">
-                    <img class="advantageImage" src={advantageImage3}></img>
-                    <p class="advantageText">Free of charge</p>
+                <div className="advantage">
+                    <img className="advantageImage" src={advantageImage3}></img>
+                    <p className="advantageText">Free of charge</p>
                 </div>
             </div>
         </div>

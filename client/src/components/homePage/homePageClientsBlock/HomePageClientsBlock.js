@@ -6,7 +6,7 @@ import "./HomePageClientsBlock.css";
 function HomePageClientsBlock() {
     return (
         <div className="clientsBlock">
-            <span class="clientsHeader">CLIENTS</span>
+            <span className="clientsHeader">CLIENTS</span>
             <div className="clientsImage" />
         </div>
     )
