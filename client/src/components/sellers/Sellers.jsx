@@ -41,7 +41,7 @@ const Sellers = () => {
                 <SellerCard img={SellerCardTestIcon} name="CaprePerfect" country="India" price="From $24 to $32" link="." />
             </div>
         </div>
-        <div class="sellersPagesDiv">
+        <div class="pagesListDiv">
             <Link to="">1</Link>
         </div>
     </Fragment>;

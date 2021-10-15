@@ -1,11 +1,13 @@
 .filterBlock {
     background: #F3F5FB;
     border-radius: 12px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     padding: 16px 9px 23px;
     display: inline-block;
     z-index: 100;
+    min-width: 240px;
+    margin-bottom: auto;
 }
 
 #filterOpenButton {
@@ -19,6 +21,10 @@
     border-radius: 8px 0px 0px 8px;
     outline: none;
     background: url(../../img/filterMenuImage.png) center center / 16px no-repeat white;
+    
+    border: 1px solid #5282C3;
+    box-sizing: border-box;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .filterSearchButton {
@@ -116,9 +122,6 @@
 }
 
 .sumFromDiv > input, .sumToDiv > input {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 12px;
     color: #000000;
@@ -132,8 +135,47 @@
 }
 
 
+.dateValuesDiv {
+    display: flex;
+    margin: 8px 0;
+    flex-direction: column;
+}
+
+.dateFromDiv, .dateToDiv {
+    display: flex;
+}
+
+.dateToDiv {
+    margin-top: 5px;
+}
+
+.dateFromDiv > span, .dateToDiv > span {
+    font-size: 14px;
+    line-height: 12px;
+    color: #7A7D80;
+    min-width: 50px;
+}
+
+.dateFromDiv > input, .dateToDiv > input {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 12px;
+    color: #000000;
+    outline: none;
+    border-width: 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 32px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+
 @media (max-width: 700px) {
     .filterBlock {
+        min-width: auto;
         z-index: 100;
         top: 75px;
         left: auto;

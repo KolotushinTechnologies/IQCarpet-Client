@@ -39,6 +39,32 @@ input[type="file"] {
 
 
 
+.contentHeaderButtonsDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagesListDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.pagesListDiv > a, .pagesListDiv > span {
+    margin: auto 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7A7D80;
+    text-decoration: none;
+}
+
+
+
 .contactsLinkImage1_32 {
     background: url('./img/contactsLinkImage1_32x32.png') no-repeat center center/cover;
 }
