@@ -135,10 +135,6 @@
     background: url('../../img/howItWorksLineImage.png') no-repeat center center/cover;
 }
 
-.howWorksStepMobile {
-    display: none;
-}
-
 @media (max-width: 700px) {
     .howItWorksBlock {
         margin: 16px 16px 49px;
@@ -160,10 +156,31 @@
         line-height: 17px;
         margin: 39px 0 0 16px;
         height: 17px;
+        position: absolute;
     }
 
     .howWorksStep1 {
         margin-top: 4px;
+    }
+
+    .howWorksStep2 {
+        margin-top: 60px;
+    }
+    
+    .howWorksStep3 {
+        margin-top: 116px;
+    }
+    
+    .howWorksStep4 {
+        margin-top: 172px;
+    }
+    
+    .howWorksStep5 {
+        margin-top: 228px;
+    }
+    
+    .howWorksStep6 {
+        margin-top: 284px;
     }
 
     .howItWorksLineTextRight {
@@ -178,12 +195,8 @@
         text-align: start;
     }
 
-    .howWorksStepMobile {
-        display: initial;
-    }
-
     .howItWorksLineTextLeft {
-        display: none;
+        width: 90%;
         position: absolute;
         margin-left: 24px;
     }

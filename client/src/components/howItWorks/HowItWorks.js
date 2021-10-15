@@ -41,20 +41,11 @@ function HowItWorks() {
                         <p className="howWorksStep1 howWorksStep howWorksStepRight">
                             Registration
                         </p>
-                        <p className="howWorksStep2 howWorksStep howWorksStepMobile">
-                            Design your carpet layout
-                        </p>
                         <p className="howWorksStep3 howWorksStep howWorksStepRight">
                             Send the layout to many sellers
                         </p>
-                        <p className="howWorksStep4 howWorksStep howWorksStepMobile">
-                            Get answers and choose the best carpet
-                        </p>
                         <p className="howWorksStep5 howWorksStep howWorksStepRight">
                             Solve the issue with payment and delivery
-                        </p>
-                        <p className="howWorksStep6 howWorksStep howWorksStepMobile">
-                            Enjoy your carpet
                         </p>
                     </div>
                 </div>
