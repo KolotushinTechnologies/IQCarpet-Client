@@ -44,7 +44,7 @@ const Chat = ({match}) => {
 
     return (
         <Fragment>
-            <BackButton />
+            <BackButton className={`chatBackButton ${userSelected ? "chatUserSelected" : ""}`} />
             <h1 className="chatHeader">Messages</h1>
             <div className="chatContent">
                 <ChatsList userSelected={userSelected} chats={chats} />

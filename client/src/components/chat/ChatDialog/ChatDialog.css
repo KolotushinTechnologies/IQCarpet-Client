@@ -64,14 +64,19 @@
         height: 700px;
         background: white;
         margin: 0;
-        margin-top: -44px;
-        z-index: -1;
+        /* margin-top: -44px; */
+    }
+
+    .chatBackButton.chatUserSelected {
+        margin-top: 16px;
+        position: absolute;
     }
 
     .dialogHeader {
         min-height: 56px;
         background: #DAE5F6;
         border-radius: 0;
+        justify-content: flex-start;
     }
 
     .dialogImg {
