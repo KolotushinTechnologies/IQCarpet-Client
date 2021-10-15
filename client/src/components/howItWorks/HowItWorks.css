@@ -196,7 +196,7 @@
     }
 
     .howItWorksLineTextLeft {
-        width: 90%;
+        width: calc(90% - 32px);
         position: absolute;
         margin-left: 24px;
     }

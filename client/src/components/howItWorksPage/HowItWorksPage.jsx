@@ -12,7 +12,7 @@ const HowItWorksPage = () => (
         <BackButton className="hiw_backButtonDiv" />
         <HowItWorksElement />
         <div className="newOrderButton">
-            <Link to="/newOrder">
+            <Link to="/new-order">
                 <button>Make an Order</button>
             </Link>
         </div>
